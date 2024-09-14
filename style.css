@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.obox{
+    border: solid 1px;
+    height: 150px;
+    display: flex;
+}
+#box1,#box2{
+    border: solid 1px;
+    height: 150px;
+}
+#box1{
+    width: 150px;
+}
+#box2{
+    width: 1800px;
+    text-align: center;
+}
+#clgname{
+    font-size: 40px;
+    color: red;
+}
+#text1{
+   font-size: 25px;
+   font-family: fancy;
+}
+#text2{
+    font-size: 20px;
+    font-family: fancy;
+    color: rgb(70, 67, 67);
+}
+#bits{
+    font-size: 26px;
+    color: blue;
+}
+#scrolltext1{
+    font-size: 25px;
+    color: rgb(139, 6, 39);
+    font-style: italic;
+    background-color: blanchedalmond;
+    font-weight: bold;
+}
+#scrolltext1{
+    font-size: 25px;
+    color: rgb(139, 6, 39);
+    font-style: italic;
+    background-color: blanchedalmond;
+    font-weight: bold;
+}
+#scrolltext2{
+    font-size: 25px;
+    color: rgb(139, 6, 39);
+    font-style: italic;
+    background-color: rgb(245, 202, 13);
+    font-weight: bold;
+}
+#navbox{
+    border: solid 1px;
+    height: 50px;
+    
+}
+ul li{
+    border: solid 1px;
+    height: 50px;
+    width: 300px;
+    float: left;
+    text-align: center;
+    line-height: 49px;
+    background-color: rgb(7, 71, 18);
+    border-radius: 15px;
+    margin-right: 5px;
+    margin-bottom: 2px;
+}
+ul{
+    list-style: none;
+}
+ul li a{
+    color: rgb(240, 190, 240);
+    font-size: 22px;
+    
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+}
+ul li:hover{
+    background-color: rgb(204, 75, 16);
+    text-decoration: underline;
+}
+.outbox{
+    border: solid 1px;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+#in1,#in2,#in3{
+    border: solid 1px;
+    height: 450px;
+    z-index: -1;
+
+}
+#in1{
+    width: 780px;
+    background-image: url(img2.jpg);
+    background-repeat: no-repeat;
+    background-size: 780px 450px;
+    animation-name: imgchange;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes imgchange{
+    10%{
+        background-image: url(img3.jpg);
+    }
+    20%{
+        background-image: url(img4.jpg);
+    }
+    30%{
+        background-image: url(im5.jpg);
+    }
+}
+#in2,#in3{
+    width: 490px;
+    text-align: center;
+    background-color: rgb(167, 221, 223);
+}
+#text3{
+    font-size: 25px;
+    color: brown;
+}
+#text4{
+    font-size: 20px;
+    color: black;
+}
